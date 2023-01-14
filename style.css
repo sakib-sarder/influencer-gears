@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Noto+Sans:wght@400;500;600&family=Open+Sans&family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+.navbar-ul{
+    display: flex;
+}
+.navbar-ul li{
+    list-style: none;
+    padding: 0px 20px;
+}
+.navbar-ul a{
+    text-decoration: none;
+    color: black;
+    transition: 0.4s ease;
+}
+.icon i{
+    padding-right: 15px;
+    transition: 0.4s ease;
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+.navbar-ul a:hover{
+    color: rgb(170, 211, 197);
+}
+.icon i:hover{
+    color: rgb(245, 231, 103);
+}
+
+/* .section-primary{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+} */
+/* Nav Styles */
+/* nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.company-name{
+    font-size: 1.5rem;
+}
+.menu a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+} */
+
+/* Banner section */
+
+/* .banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+
+/* Responsiveness */
+
+/* nav */
+@media only screen and (max-width: 576px) {
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        
+    }
+    ul li{
+        font-size: 13px;
+        font-weight: 700;
+    }
+    /* .company-name{
+        display: none;
+    }
+    .menu{
+        flex-direction: column;
+
+    }
+    .menu a{
+        width: 400px;
+        text-align: center;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    } */
+}
